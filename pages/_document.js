@@ -13,14 +13,11 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta
-            key="viewport"
-            name="viewport"
-            content="minimum-scale=1, initial-scale=1, width=device-width"
-          />
           <meta name="theme-color" content={theme.palette.primary.main} />
         </Head>
-        <body>
+        <body
+          style={{ fontFamily: "Iosevka Sparkle,Helvetica Neue,sans-serif" }}
+        >
           <Main />
           <NextScript />
         </body>

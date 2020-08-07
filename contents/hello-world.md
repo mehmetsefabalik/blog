@@ -6,6 +6,14 @@ date: "31-05-2020"
 
 # Go vs Rust: Writing a CLI tool
 
+```js
+function sayHello (msg, who) {
+    return \`\${who} says: msg\`;
+}
+sayHello("Hello World", "Johnny");
+```
+`);
+
 ![Go vs. Rust](https://gist.githubusercontent.com/cuchi/59255d61717e2d469263eb86cf083067/raw/6ef1a42f335022adf481fb84cabc32ac47f18679/go-vs-rust.png)
 
 This text is about my adventure writing a small CLI application (twice) using
