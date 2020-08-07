@@ -23,7 +23,7 @@
     }
   }
   article {
-    margin-top: 2em;
+    margin-top: 0em;
     h1 {
       text-align: center;
     }
@@ -33,6 +33,8 @@
     }
     blockquote {
       background-color: #e0f7fa;
+      border-radius: 1em;
+      padding: 5px;
     }
     code {
       background-color: #eee;

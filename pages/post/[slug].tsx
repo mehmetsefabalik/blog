@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import fs from "fs";
 import matter from "gray-matter";
 import MarkDownIt from "markdown-it";
@@ -7,13 +8,13 @@ import highlight from "highlight.js";
 function BlogPostPage(props) {
   return (
     <div className="page">
+      <Head>
+        <title>{props.post.title}</title>
+      </Head>
       <div className="post">
-        <div className="title">
-          <h1>{props.blog.title}</h1>
-        </div>
         <article
           dangerouslySetInnerHTML={{
-            __html: props.blog.content,
+            __html: props.post.content,
           }}
         ></article>
       </div>
@@ -50,7 +51,7 @@ export async function getStaticProps(context) {
 
   return {
     props: {
-      blog: {
+      post: {
         ...data,
         content: html,
       },
