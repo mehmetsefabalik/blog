@@ -14,10 +14,16 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <meta name="theme-color" content={theme.palette.primary.main} />
+          <link
+            rel="stylesheet"
+            href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css"
+          ></link>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap"
+            rel="stylesheet"
+          ></link>
         </Head>
-        <body
-          style={{ fontFamily: "Iosevka Sparkle,Helvetica Neue,sans-serif" }}
-        >
+        <body style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>
           <Main />
           <NextScript />
         </body>

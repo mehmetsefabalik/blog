@@ -1,5 +1,4 @@
 import React from "react";
-import Head from "next/head";
 import fs from "fs";
 import matter from "gray-matter";
 import MarkDownIt from "markdown-it";
@@ -7,19 +6,17 @@ import highlight from "highlight.js";
 
 function BlogPostPage(props) {
   return (
-    <div>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css"
-        ></link>
-      </Head>
-      <h1>{props.blog.title}</h1>
-      <article
-        dangerouslySetInnerHTML={{
-          __html: props.blog.content,
-        }}
-      ></article>
+    <div className="page">
+      <div className="post">
+        <div className="title">
+          <h1>{props.blog.title}</h1>
+        </div>
+        <article
+          dangerouslySetInnerHTML={{
+            __html: props.blog.content,
+          }}
+        ></article>
+      </div>
     </div>
   );
 }

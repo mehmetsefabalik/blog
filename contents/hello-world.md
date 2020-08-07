@@ -12,7 +12,6 @@ function sayHello (msg, who) {
 }
 sayHello("Hello World", "Johnny");
 ```
-`);
 
 ![Go vs. Rust](https://gist.githubusercontent.com/cuchi/59255d61717e2d469263eb86cf083067/raw/6ef1a42f335022adf481fb84cabc32ac47f18679/go-vs-rust.png)
 
