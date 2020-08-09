@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "test": "npx jest",
-    "lint": "eslint --fix ./pages/*.{js,tsx} ./pages/*/*.tsx ./components/*/*.tsx ./components/*/*/*.tsx"
+    "lint": "eslint --fix ./pages/*.{js,tsx} ./pages/*/*.tsx ./containers/*/*.tsx ./containers/*/*/*.tsx ./components/*/*.tsx ./components/*/*/*.tsx ./interfaces/*.ts"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
