@@ -5,7 +5,7 @@ import { Header } from "../containers/header";
 import { PersonalInfo } from "../containers/personal-info";
 import { PostList } from "../containers/post-list";
 
-function IndexPage(props) {
+function Index(props) {
   return (
     <div>
       <Header />
@@ -38,4 +38,4 @@ export async function getStaticProps() {
   };
 }
 
-export default IndexPage;
+export default Index;
