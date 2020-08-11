@@ -1,15 +1,10 @@
-## NEXTJS STARTER TEMPLATE WITH TYPESCRIPT, MATERIALUI AND JEST
+# Blog template with Next.js (using Static Site Generation feature)
 
-This is a Nextjs project whose Typescript, MaterialUI and Jest config setups are made by default.
+## How to run
 
-If you want to kickstart a project using Nextjs, Typescript, MaterialUI and Jest, clone this already-setup-repo and start coding!
 
 ```
 npm i
-```
-
-```
-npm run test
 ```
 
 ```
