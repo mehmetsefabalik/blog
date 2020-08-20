@@ -21,7 +21,12 @@ describe("PostList Unit Tests", () => {
   beforeEach(() => {
     posts = Array(number({ min: 1, max: 3 }))
       .fill(null)
-      .map(() => ({ title: words(5), description: words(5), date: words(5) }));
+      .map(() => ({
+        title: words(5),
+        description: words(5),
+        date: words(5),
+        slug: words(5),
+      }));
   });
 
   it("should render posts", () => {
