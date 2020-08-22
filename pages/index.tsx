@@ -7,7 +7,7 @@ import { PostList } from "../containers/post-list";
 
 function Index(props) {
   return (
-    <div>
+    <div id="home-container">
       <Header />
       <PersonalInfo />
       <PostList posts={props.posts} />

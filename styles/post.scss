@@ -4,6 +4,12 @@
   opacity: 0.6;
 }
 
+@media (max-width: 600px) {
+  code {
+    font-size: 10px !important;
+  }
+}
+
 .page {
   display: flex;
   flex-direction: column;

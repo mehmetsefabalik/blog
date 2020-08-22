@@ -1,11 +1,2 @@
-body {
-  font-size: 1rem !important;
-}
-
-@media (max-width: 600px) {
-  code {
-    font-size: 10px !important;
-  }
-}
-
 @import "post.scss";
+@import "home-page.scss";
