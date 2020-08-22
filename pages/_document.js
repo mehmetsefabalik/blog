@@ -23,7 +23,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           ></link>
         </Head>
-        <body style={{ fontFamily: "'Merriweather', serif" }}>
+        <body>
           <Main />
           <NextScript />
         </body>
