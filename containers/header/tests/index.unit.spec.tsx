@@ -19,5 +19,8 @@ describe("Header Unit Tests", () => {
 
     // Assert
     expect(container.querySelectorAll("header")).toHaveLength(1);
+    expect(container.querySelectorAll(".top")).toHaveLength(1);
+    expect(container.querySelectorAll("#header-container")).toHaveLength(1);
+    expect(container.querySelectorAll(".top a")).toHaveLength(3);
   });
 });
