@@ -19,4 +19,18 @@ $myFont: Montserrat, Helvetica, sans-serif;
   .top a{
     color : var(--top-color);
   }
+  #personal-info{
+    font-family: $myFont;
+    font-size:14px;
+    font-weight:normal;
+    a{
+      color:var(--header-color);
+    }
+  }
+  #personal-image{
+    border-radius:50%;
+    width: 70px;
+    height: 70px;
+  }
+  
 }
