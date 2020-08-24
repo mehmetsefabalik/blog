@@ -3,15 +3,34 @@ $myFont: Montserrat, Helvetica, sans-serif;
 :root {
   --bgcolor: #fef8f8;
   --header-color: #821d30;
+  --top-color:#F79489;
 }
 #home-container {
   font-family: $myFont;
   background-color: var(--bgcolor);
   height: 100vh;
   width: 100vw;
+  text-align: left;
   header {
     color: var(--header-color);
     font-weight: bold;
     font-size: 20px;
   }
+  .top a{
+    color : var(--top-color);
+  }
+  #personal-info{
+    font-family: $myFont;
+    font-size:14px;
+    font-weight:normal;
+    a{
+      color:var(--header-color);
+    }
+  }
+  #personal-image{
+    border-radius:50%;
+    width: 70px;
+    height: 70px;
+  }
+  
 }
