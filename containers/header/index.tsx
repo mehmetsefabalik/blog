@@ -4,9 +4,9 @@ const Header: FunctionComponent = () => {
   return (
     <div id="header-container">
       <div className="top">
-        <a>twitter</a>
-        <a>github</a>
-        <a>this site is open source</a>
+        <a className="social-link-left">twitter</a>
+        <a className="social-link-left">github</a>
+        <a className="social-link-right">this site is open source</a>
       </div>
       <header>Blog</header>
     </div>
