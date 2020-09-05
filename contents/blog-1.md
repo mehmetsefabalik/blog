@@ -1,7 +1,7 @@
 ---
-title: Goodbye, Clean Code
-description: Let clean code guide you. Then let it go.
-date: "January 1, 2020 ☕️ "
+title: The WET Codebase
+description: Come waste your time with me.
+date: "July 13, 2020 ☕️ "
 ---
 
 # Go vs Rust: Writing a CLI tool
