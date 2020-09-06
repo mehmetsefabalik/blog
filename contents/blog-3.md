@@ -1,7 +1,7 @@
 ---
-title: Goodbye, Clean Code
-description: Let clean code guide you. Then let it go.
-date: "January 1, 2020 ☕️ "
+title: What Are the React Team Principles?
+description: UI Before API.
+date: "December 25, 2019  ☕️ "
 ---
 
 # Go vs Rust: Writing a CLI tool

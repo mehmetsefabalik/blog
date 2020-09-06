@@ -8,9 +8,11 @@ import { PostList } from "../containers/post-list";
 function Index(props) {
   return (
     <div id="home-container">
-      <Header />
-      <PersonalInfo />
-      <PostList posts={props.posts} />
+      <div id="home-sub-container">
+        <Header />
+        <PersonalInfo />
+        <PostList posts={props.posts} />
+      </div>
     </div>
   );
 }
