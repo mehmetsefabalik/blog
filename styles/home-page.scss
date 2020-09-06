@@ -1,14 +1,19 @@
-$myFont: Verdana, Geneva, Tahoma, sans-serif;
+$myFont: Verdana,
+Geneva,
+Tahoma,
+sans-serif;
 
 :root {
   --bgcolor: #fef8f8;
   --header-color: #821d30;
   --top-color: #F79489;
-  --top-font-size:15px;
+  --top-font-size: 15px;
 }
-body{
+
+body {
   font-weight: 400;
 }
+
 #home-container {
   display: flex;
   justify-content: space-evenly;
@@ -26,60 +31,110 @@ body{
     font-size: 1.98818rem;
     margin-bottom: 30px;
   }
+
   .top a {
     color: var(--top-color);
   }
-  aside{
+
+  aside {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
   }
+
   #personal-info {
     font-family: $myFont;
     font-size: 16px;
     margin-left: 20px;
     margin-top: 10px;
     width: 50%;
+
     a {
       color: var(--header-color);
     }
   }
+
   #personal-image {
     border-radius: 50%;
     width: 70px;
     height: 70px;
   }
+
   .social-link-left {
-    font-size: var( --top-font-size);
+    font-size: var(--top-font-size);
     padding-right: 20px;
   }
+
   .social-link-right {
-    font-size:var(--top-font-size);
+    font-size: var(--top-font-size);
     padding-left: 80px;
     text-decoration: underline;
   }
+
   .top {
     margin-bottom: 25px;
     display: flex;
   }
-  #post-article{
 
-    a{
+  #post-article {
+
+    a {
       text-decoration: none;
-      font-size:30px;
+      font-size: 28px;
       margin-bottom: 0;
-      color : var(--header-color);
+      color: var(--header-color);
     }
-      h3{
-        margin-bottom :0;
-        margin-top: 50px;
+
+    h3 {
+      margin-bottom: 0;
+      margin-top: 50px;
+    }
+
+    small {
+      color: black;
+    }
+
+    p {
+      font-size: 16px;
+      margin-top: 5px;
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 767px) {
+  #home-container {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+
+    #main-header {
+      margin-bottom: 15px;
+      padding: 10px;
+    }
+
+    aside {
+      padding: 10px;
+    }
+
+    .social-link-right {
+      padding-left: 0;
+    }
+
+    .social-link-left {
+      padding-left: 10px;
+    }
+
+    #personal-info {
+      width: 70%;
+      margin-top: 0;
+    }
+
+    #post-article {
+      a {
+        font-size: 25px;
       }
-      small{
-        color:black;
-      }
-      p{
-        font-size: 16px;
-        margin-top :5px;
-      }
+    }
   }
 }

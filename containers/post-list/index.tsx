@@ -12,7 +12,7 @@ const PostList: FunctionComponent<Props> = ({ posts }) => {
         posts.map((post, index) => (
           <article key={index} id="post-article">
             <header>
-              <h3> 
+              <h3>
                 <a rel="bookmark" href={`/post/${post.slug}`}>
                   {post.title}
                 </a>
