@@ -13,7 +13,7 @@ const PostList: FunctionComponent<Props> = ({ posts }) => {
           <article key={index} id="post-article">
             <header>
               <h3>
-                <a rel="bookmark" href={`/post/${post.slug}`}>
+                <a rel="bookmark" href={`/post/${post.id}`}>
                   {post.title}
                 </a>
               </h3>

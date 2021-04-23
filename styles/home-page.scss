@@ -1,13 +1,10 @@
-$myFont: Verdana,
-Geneva,
-Tahoma,
-sans-serif;
+@import "variable.scss";
 
 :root {
   --bgcolor: #fef8f8;
   --header-color: #821d30;
-  --top-color: #F79489;
-  --top-font-size: 15px;
+  --top-color: #f79489;
+  --top-font-size: $body1;
 }
 
 body {
@@ -19,7 +16,6 @@ body {
   justify-content: space-evenly;
   margin-left: auto;
   margin-right: auto;
-  font-family: $myFont;
   background-color: white;
   height: 100vh;
   width: 100vw;
@@ -43,7 +39,6 @@ body {
   }
 
   #personal-info {
-    font-family: $myFont;
     font-size: 16px;
     margin-left: 20px;
     margin-top: 10px;
@@ -77,7 +72,6 @@ body {
   }
 
   #post-article {
-
     a {
       text-decoration: none;
       font-size: 26px;

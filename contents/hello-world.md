@@ -2,6 +2,7 @@
 title: Goodbye, Clean Code
 description: Let clean code guide you. Then let it go.
 date: "January 1, 2020 ☕️ "
+id: hello-world
 ---
 
 # Go vs Rust: Writing a CLI tool
@@ -409,7 +410,7 @@ the program heap memory without manual management or a garbage collector.
 For comparison, let's take some other executables which do a rather _similar_
 task:
 | Command                               | Maximum resident set size (kbytes) |
-|---------------------------------------|------------------------------------|
+| ------------------------------------- | ---------------------------------- |
 | `heroku apps`                         | 56436                              |
 | `gh pr list`                          | 26456                              |
 | `git ls-remote` (With a SSH remote)   | 6448                               |

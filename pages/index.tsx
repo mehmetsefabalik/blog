@@ -1,9 +1,9 @@
 import React from "react";
 import fs from "fs";
 import matter from "gray-matter";
-import { Header } from "../containers/header";
-import { PersonalInfo } from "../containers/personal-info";
-import { PostList } from "../containers/post-list";
+import { Header } from "../fragments/header";
+import { PersonalInfo } from "../fragments/personal-info";
+import { PostList } from "../fragments/post-list";
 
 function Index(props) {
   return (

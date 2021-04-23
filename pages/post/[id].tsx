@@ -24,8 +24,8 @@ function BlogPostPage(props) {
 
 // pass props to BlogPostPage component
 export async function getStaticProps(context) {
-  const slug = context.params.slug; // get slug from params
-  const path = `${process.cwd()}/contents/${slug}.md`;
+  const id = context.params.id; // get slug from params
+  const path = `${process.cwd()}/contents/${id}.md`;
   // read file content and store into rawContent variable
   const rawContent = fs.readFileSync(path, {
     encoding: "utf-8",
@@ -70,7 +70,7 @@ export async function getStaticPaths(context) {
     paths: markdownFileNames.map((fileName) => {
       return {
         params: {
-          slug: fileName,
+          id: fileName,
         },
       };
     }),

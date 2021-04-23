@@ -1,2 +1,15 @@
+@import "variable.scss";
 @import "post.scss";
 @import "home-page.scss";
+
+h1 {
+  font-size: $headline3;
+}
+
+h2 {
+  font-size: $headline4;
+}
+
+p {
+  font-size: $body1;
+}

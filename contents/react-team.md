@@ -1,7 +1,8 @@
 ---
-title: The WET Codebase
-description: Come waste your time with me.
-date: "July 13, 2020 ☕️ "
+title: What Are the React Team Principles?
+description: UI Before API.
+date: "December 25, 2019  ☕️ "
+id: react-team
 ---
 
 # Go vs Rust: Writing a CLI tool
@@ -409,7 +410,7 @@ the program heap memory without manual management or a garbage collector.
 For comparison, let's take some other executables which do a rather _similar_
 task:
 | Command                               | Maximum resident set size (kbytes) |
-|---------------------------------------|------------------------------------|
+| ------------------------------------- | ---------------------------------- |
 | `heroku apps`                         | 56436                              |
 | `gh pr list`                          | 26456                              |
 | `git ls-remote` (With a SSH remote)   | 6448                               |
